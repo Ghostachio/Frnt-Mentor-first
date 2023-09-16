@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+p{
+    color: hsl(224, 30%, 27%);
+}
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    width: 700px;
+    border-radius: 20%;
+    padding: 10px;
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsla(256, 72%, 46%, 1);
+    width: 350px;
+    height: 500px;
+    border-radius: 50px;
+    overflow: hidden;
+    color: antiquewhite;
+}
+
+.result > p{
+    text-align: center;
+    width: 200px;
+    color: rgb(209, 209, 208);
+}
+
+.summary{
+    background-color:hsl(0, 0%, 100%);
+    width: 350px;
+    height: 500px;
+}
+
+.score{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    background-image:linear-gradient(rgb(59, 25, 155), rgb(133, 95, 236));
+    border-radius: 50%;
+}
+
+.score > h1{
+    font-size: 60px;
+}
+
+.score > p{
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+.rslt{
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sections{
+    display: flex;
+    padding: 5px 20px;
+    border-radius: 10px;
+    align-items: center;
+    height: 30px;
+    width: 250px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: hsl(39, 100%, 56%);
+    font-size:large;
+    font-weight: bold;
+}
+
+.title{
+    color: hsl(224, 30%, 27%);
+}
+
+.one{
+    background-color: hsl(166, 100%, 37%, 0.2)
+}
+
+.two{
+    background-color: hsl(234, 85%, 45%, 0.2)  
+}
+
+.three{
+    background-color:hsl(39, 100%, 56%, 0.2)
+}
+
+.four{
+    background-color: hsl(0, 100%, 67%, 0.2)
+}
+
+.button > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    font-size: 20px;
+    color: white;
+    height: 50px;
+    width: 250px;
+    border-radius: 50px;
+    background-image:linear-gradient(rgb(59, 25, 155), rgb(133, 95, 236));
+    font-weight: bold;
+}
+
+
